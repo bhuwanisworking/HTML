@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <!-- we will see the tags here for the form-->
+     <!-- now to connect these 2 input and lable we use this for so input filed id and lable for should be same-->
+    <!-- value file in the input is like the Text already will be written in the filed-->
+     <!-- and to make form in one block we use filedset and place the whole form and legend is used to create the caption for the Filedset-->
+      <fieldset>
+        <legend> Html Dummy Form</legend>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text"  placeholder="Enter yor name here" id="name">
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password"  placeholder="Enter yor password here" id="pass">
+            <br>
+            <br>
+            <label for="male">Select Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br>
+<br>
+<label for="files">Select files</label>
+<input type="file" id="files">
+
+
+        </form>
+      </fieldset>
+
+
+    
+</body>
+</html>
